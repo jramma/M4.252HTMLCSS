@@ -109,10 +109,11 @@ u{
 footer {
     text-align: left;
     background-color: black;
-    color: #fff;
     padding: 2rem;
     width: 100%;
 }
 footer div{
     margin-left: 3rem;
+    color: #fff;
+    font-size: 0.8rem;
 }
