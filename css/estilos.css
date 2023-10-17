@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    min-height: 100vh;
+    margin: 0;
+    line-height: 1.5;
+}
+/* GENERIC */
+.sans-serif {
+    font-family: Verdana, Tahoma, sans-serif;
+    color:#2c2c2c;
+}
+
+.serif {
+    font-family: Georgia, 'Times New Roman', serif;
+    color:#2c2c2c;
+
+}
+#orange{
+    color: rgb(255, 141, 99);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 141, 99);
+
+}
+/* HEADER */
+header {
+    background-color: #d7e2e7;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding-bottom:0.7rem ;
+
+}
+h1 {
+    font-size: 2rem;
+    font-variation-settings: 'wght' 900;
+    color:#333;
+    margin: 0;
+
+}
+ #e{
+    font-size: 4rem;
+    font-family:Georgia, 'Times New Roman', serif;
+    line-height: 1;
+} 
+
+header spam {
+    display: block;
+    margin: 0.2rem;
+    font-weight: bold;
+    
+}
+/* MAIN */
+.container {
+    width: 95%; 
+    max-width: 850px;
+    margin-top: 1rem;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+
+}
+main h2{
+    font-size: 2rem;
+    margin: 1rem 3rem 0.5rem 3rem; /*  superior,  derecho, inferior, izquierdo */
+    color: #333;
+}
+.subtitle{
+    font-size: 0.7rem;
+}
+img{
+    margin: 1rem;
+    width: 700px;
+    
+}
+#post_foto{
+    margin: 0rem 8rem 1rem 5rem; /*  superior,  derecho, inferior, izquierdo */
+    text-align: left;
+}
+
+main h3{
+    font-size: 1.7rem;
+    text-align: left;
+    color: #333;
+}
+.contenido{
+    margin-right: 4rem;
+    text-align: left;
+}
+u{
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+.cita{
+    border-left: 0.4rem solid rgb(255, 141, 99);
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 3rem;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    padding: 2rem;
+    width: 100%;
+}
+footer div{
+    margin-left: 3rem;
+}
