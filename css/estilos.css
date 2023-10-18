@@ -103,7 +103,9 @@ u{
     font-style: italic;
     margin-right: 3rem;
 }
-
+.left{
+    text-align: left;
+}
 /* FOOTER */
 
 footer {
