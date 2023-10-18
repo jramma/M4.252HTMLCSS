@@ -66,7 +66,7 @@ header a {
 }
 main h2{
     font-size: 2rem;
-    margin: 1rem 3rem 0.5rem 3rem; /*  superior,  derecho, inferior, izquierdo */
+    margin: 1rem 3rem 0.5rem 3rem; 
     color: #333;
 }
 .subtitle{
@@ -103,9 +103,16 @@ u{
     font-style: italic;
     margin-right: 3rem;
 }
+.cita p{
+    margin-left: 1rem;
+}
 .left{
     line-height: 2;
     text-align: left;
+}
+.left2{
+    text-align: left;
+
 }
 .users li{
     list-style-image: url(img/users.svg);
@@ -118,7 +125,17 @@ u{
 .enunciado{
     font-size: 1.5rem;
 }
+.photo img{
+    max-width: 24rem;
 
+}
+h3.serif{
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+.top{
+    margin-top: 0px;
+}
 
 
 
