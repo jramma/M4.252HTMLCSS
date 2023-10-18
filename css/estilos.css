@@ -104,8 +104,24 @@ u{
     margin-right: 3rem;
 }
 .left{
+    line-height: 2;
     text-align: left;
 }
+.users li{
+    list-style-image: url(img/users.svg);
+}
+
+.regular li{
+    list-style-image: none;
+    list-style-type: disc;
+}
+.enunciado{
+    font-size: 1.5rem;
+}
+
+
+
+
 /* FOOTER */
 
 footer {
