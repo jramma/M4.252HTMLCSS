@@ -143,6 +143,12 @@ u{
 .enunciado{
     font-size: 1.5rem;
 }
+/* esto es para quitar el font 
+size del enunciado porque ul está 
+dentro de los li enunciado */
+.enunciado ul{
+    font-size: 1rem;
+}
 .photo img{
     max-width: 24rem;
     margin-bottom: 0.5rem;
@@ -172,5 +178,4 @@ footer div{
     color: rgb(255,255,255);
     font-size: 0.8rem;
     line-height: 1;
-
 }
