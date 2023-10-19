@@ -37,6 +37,10 @@ header {
     padding-bottom:0.7rem ;
 
 }
+nav ul{
+    list-style-type:none;
+    padding-left: 0;
+}
 #redes {
     font-size: 2rem;
     font-variation-settings: 'wght' 900;
